@@ -12,7 +12,7 @@ const openNav = document.querySelector('#openNav')
 const closeNav = document.querySelector('#closeNav')
 const popupNav = document.querySelector('#popupNav')
 
-openNav && openNav.addEventListener('click', () => {
+openNav.addEventListener('click', () => {
     popupNav.classList.remove('!hidden')
     document.body.classList.add('!overflow-hidden')
 })
