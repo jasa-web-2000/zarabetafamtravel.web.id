@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
-    "push": "git add -A && git commit -m \"malas ngoding, paham 🖐\" && git push -u origin main"
+    "push": "git add -A && git commit -m \"malas ngoding, paham 🖐\" && git push -u origin main --force"
   },
   "keywords": [],
   "author": "",
