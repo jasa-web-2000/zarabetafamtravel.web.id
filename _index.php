@@ -402,7 +402,7 @@ $galeri = [
         <div class="text-center inner-container">
           <h2 class="line-h2">Rute <?= $brand ?></h2>
           <p class="desc">
-            Ada yang gampang ngapain pilih yang ribet, tinggal pesen dari rumah, dijemput depan rumah diantar sampai lokasi! Bonus makan 1x (travel).
+            Ada yang gampang ngapain pilih yang ribet, tinggal pesen dari rumah, dijemput depan rumah diantar sampai lokasi!
           </p>
         </div>
         <div
