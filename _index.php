@@ -1,15 +1,17 @@
 <?php
 
-$domain = 'https://ja-travel-blora.web.id/';
-$brand = 'J A Travel Blora';
-$logo = 'src/img/logo.jpg';
-$logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " - Travel Blora Terbaik No. 1";
-$desc = $brand . " menawarkan jasa travel Blora dengan harga murah dan jadwal 24 jam";
-$telp = '0822-2995-9600';
-$telp2 = '0822-4108-1699';
-$alamat = '29HW+X29 Tutup, Kabupaten Blora, Jawa Tengah';
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3960.3321167483327!2d111.39252737499696!3d-6.970089093030556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTgnMTIuMyJTIDExMcKwMjMnNDIuNCJF!5e0!3m2!1sid!2sid!4v1747235737232!5m2!1sid!2sid';
+// $domain = 'http://localhost/travel/zarabetafamtravel.web.id/';
+$domain = 'https://zarabetafamtravel.web.id/';
+$brand = 'Zarabeta Fam Travel';
+$logo = 'src/img/Zarabeta-Fam-Travel.jpg';
+$logoPanjang = 'src/img/zarabeta-fam-travel-text.jpg';
+$title = $brand . " Banyumas Terbaik No. 1";
+$desc = $brand . " menawarkan jasa travel Banyumas dengan harga murah dan jadwal 24 jam";
+$telp = '0857-2749-1667';
+// $telp2 = '0822-4108-1699';
+$alamat = 'Jl. Lingkar Timur, Kec. Wangon, Kabupaten Banyumas, Jawa Tengah 53176';
+
+$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3955.6013413966716!2d109.063666982217!3d-7.50918439703721!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65659827148d7b%3A0xb64bfdf3603cdd01!2sJl.%20Lingkar%20Barat%2C%20Kec.%20Wangon%2C%20Kabupaten%20Banyumas%2C%20Jawa%20Tengah%2053176!5e0!3m2!1sid!2sid!4v1749219517794!5m2!1sid!2sid';
 
 
 function res_telp($telp)
@@ -49,31 +51,73 @@ $menu = [
 
 
 $rute = [
-  'Travel Blora Semarang',
-  'Travel Blora Magelang',
-  'Travel Blora Salatiga',
-  'Travel Blora Solo',
-  'Travel Blora Jogja',
+  "Travel Banyumas Semarang",
+  "Travel Banyumas Jogja",
+  "Travel Banyumas Pacitan",
+  "Travel Banyumas Klaten",
+  "Travel Banyumas solo",
+  "Travel Banyumas Pati",
+  "Travel Banyumas Tegal",
+  "Travel Banyumas Pemalang",
 
-  'Travel Semarang Blora',
-  'Travel Magelang Blora',
-  'Travel Salatiga Blora',
-  'Travel Solo Blora',
-  'Travel Jogja Blora',
+  "Travel Banyumas Pengandaran",
+  "Travel Banyumas Tasik",
+  "Travel Banyumas Bandung",
+  "Travel Banyumas Garut",
+  "Travel Banyumas Majalengka",
+
+  "Travel Banyumas Jakarta",
+  "Travel Banyumas Depok",
+  "Travel Banyumas Bekasi",
+  "Travel Banyumas Cikarang",
+  "Travel Banyumas Bogor",
+  "Travel Banyumas Tangerang",
+
+  "Travel Banyumas Soeta",
+  "Travel Banyumas YIA",
+
+  // 
+
+  "Travel Semarang Banyumas",
+  "Travel Jogja Banyumas",
+  "Travel Pacitan Banyumas",
+  "Travel Klaten Banyumas",
+  "Travel solo Banyumas",
+  "Travel Pati Banyumas",
+  "Travel Tegal Banyumas",
+  "Travel Pemalang Banyumas",
+
+  "Travel Pengandaran Banyumas",
+  "Travel Tasik Banyumas",
+  "Travel Bandung Banyumas",
+  "Travel Garut Banyumas",
+  "Travel Majalengka Banyumas",
+
+  "Travel Jakarta Banyumas",
+  "Travel Depok Banyumas",
+  "Travel Bekasi Banyumas",
+  "Travel Cikarang Banyumas",
+  "Travel Bogor Banyumas",
+  "Travel Tangerang Banyumas",
+
+  "Travel Soeta Banyumas",
+  "Travel YIA Banyumas",
+
+
 ];
 
 $kota = [
   [
-    'Blora',
-    'blora.jpg',
+    'Banyumas',
+    'banyumas.jpg',
   ],
   [
     'Semarang',
     'semarang.jpg',
   ],
   [
-    'Magelang',
-    'magelang.jpg',
+    'Jakarta',
+    'jakarta.jpg',
   ],
   [
     'Jogja',
@@ -82,12 +126,12 @@ $kota = [
 ];
 
 $galeri = [
-  '1.jpg',
-  '2.jpg',
-  '3.jpg',
-  '4.jpg',
-  '5.jpg',
-  '6.jpg',
+  'grandmax.jpg',
+  'luxio.jpg',
+  'elf-short.jpg',
+  'elf-long.jpg',
+  'bus-medium.jpg',
+  'luxio-2.jpg',
 ];
 
 ?>
@@ -125,23 +169,23 @@ $galeri = [
   <link rel="canonical" href="<?= $domain ?>" />
 
   <link
-    href="./src/css/output.css"
+    href="<?= $domain ?>src/css/output.css"
     rel="stylesheet" />
   <link
     rel="stylesheet"
-    href="./src/css/swiper-bundle.min.css" />
+    href="<?= $domain ?>src/css/swiper-bundle.min.css" />
 </head>
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <header class="">
-    <div class="container !py-2">
+    <div class="container !pt-4">
       <div class="flex justify-between">
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
               loading="lazy"
               src="<?= $domain . $logoPanjang ?>"
-              class="w-12 md:w-14 xl:w-16 m-auto rounded"
+              class="w-44 md:w-52 xl:w-60 m-auto rounded"
               alt="logo" />
           </a>
         </div>
@@ -406,14 +450,10 @@ $galeri = [
           </p>
         </div>
         <div
-          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-6 [&>div]:sm:col-span-4 [&>div]:md:col-span-3 [&>div]:lg:col-span-2 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-sm [&_h3]:text-slate-700 hover:[&_h3]:text-blue-500 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_svg]:size-4 [&_svg]:mx-2 [&_svg]:py-0.5 [&_svg]:inline-block">
+          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:text-base [&_h3]:text-slate-800  [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_h3]:line-clamp-1 [&_p]:line-clamp-3 [&_p]:my-3 [&_p]:text-[15px] [&_p]:opacity-85 [&_a]:bg-primary [&_a]:text-slate-100 [&_a]:rounded [&_a]:block [&_a]:text-center [&_a]:p-1">
           <?php if (count($rute) > 0) : ?>
             <?php foreach ($rute as $item) : ?>
               <div class="">
-                <a
-                  title="<?= 'rute ' . $item ?>"
-                  href="<?= $link_whatsapp ?>!"
-                  class=""></a>
                 <img
                   loading="lazy"
                   src="<?= $domain . 'src/img/rute.jpg' ?>"
@@ -422,23 +462,11 @@ $galeri = [
                   alt="<?= 'rute ' . $item ?>"
                   class="" />
                 <div class="">
-                  <a href="<?= $link_whatsapp ?>">
-                    <h3 class="">
-                      <?= $item ?>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
-                      </svg>
-                    </h3>
-                  </a>
+                  <h3 class="">
+                    <?= $item ?>
+                  </h3>
+                  <p>Pesan <?= $item ?> harga murah bisa negosiasi.</p>
+                  <a href="<?= $link_whatsapp ?>">Pesan Travel</a>
                 </div>
               </div>
             <?php endforeach; ?>
@@ -452,28 +480,28 @@ $galeri = [
     <!-- Tentang Kami -->
     <section id="tentang-kami" class="bg-gradient-to-tr from-primary to-blue-500 py-20">
       <div class="container">
-        <div class="grid grid-cols-12 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div class="col-span-full md:col-span-6">
-            <div class="w-full max-w-[400px]">
+            <div class="w-full md:max-w-[500px]">
               <img
                 loading="lazy"
                 src="<?= $domain . $logo ?>"
-                class="rounded-lg"
+                class="w-full rounded-lg"
                 alt="tentang <?= $brand ?>">
             </div>
           </div>
           <div class="col-span-full md:col-span-6">
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
-              <p class="desc !text-slate-300 !mb-5">
+              <p class="desc text-justify !text-slate-300 !mb-5">
                 <strong><?= $brand ?></strong> akan membantu anda melakukan perjalanan travel ke berbagai daerah, tentunya dengan harga murah dan terjangkau. Pelayanan yang diberikan sangat memuaskan. Selain travel reguler, kami juga menawarkan berbagai jasa sebagai berikut:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Carter Regular</li>
                 <li>Carter Drop</li>
-                <li>Sewa Mobil + Driver</li>
                 <li>Kirim Paket</li>
-                <li>Wisata</li>
+                <li>Pariwisata</li>
+                <li>Ziarah</li>
               </ul>
             </div>
             <div class="grid grid-cols-2">
