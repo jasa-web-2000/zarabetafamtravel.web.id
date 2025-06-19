@@ -7,7 +7,7 @@ $logo = 'src/img/Zarabeta-Fam-Travel.jpg';
 $logoPanjang = 'src/img/zarabeta-fam-travel-text.jpg';
 $title = $brand . " Banyumas Terbaik No. 1";
 $desc = $brand . " menawarkan jasa travel Banyumas dengan harga murah dan jadwal 24 jam";
-$telp = '0857-2749-1667';
+$telp = '0858-4287-0455';
 // $telp2 = '0822-4108-1699';
 $alamat = 'Jl. Lingkar Timur, Kec. Wangon, Kabupaten Banyumas, Jawa Tengah 53176';
 
