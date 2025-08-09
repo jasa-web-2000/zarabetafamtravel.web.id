@@ -51,59 +51,83 @@ $menu = [
 
 
 $rute = [
+  "Travel Banyumas pati",
   "Travel Banyumas Semarang",
-  "Travel Banyumas Jogja",
-  "Travel Banyumas Pacitan",
-  "Travel Banyumas Klaten",
-  "Travel Banyumas solo",
-  "Travel Banyumas Pati",
+  "Travel Cilacap Jepara",
+  "Travel Purbalingga Semarang",
+  "Travel Kebumen Semarang",
+  "Travel Banjarnegara Semarang",
+  "Travel Cilacap Tegal",
   "Travel Banyumas Tegal",
-  "Travel Banyumas Pemalang",
-
-  "Travel Banyumas Pengandaran",
-  "Travel Banyumas Tasik",
-  "Travel Banyumas Bandung",
-  "Travel Banyumas Garut",
-  "Travel Banyumas Majalengka",
-
-  "Travel Banyumas Jakarta",
-  "Travel Banyumas Depok",
-  "Travel Banyumas Bekasi",
-  "Travel Banyumas Cikarang",
-  "Travel Banyumas Bogor",
-  "Travel Banyumas Tangerang",
-
-  "Travel Banyumas Soeta",
-  "Travel Banyumas YIA",
-
-  // 
-
-  "Travel Semarang Banyumas",
-  "Travel Jogja Banyumas",
-  "Travel Pacitan Banyumas",
-  "Travel Klaten Banyumas",
-  "Travel solo Banyumas",
-  "Travel Pati Banyumas",
-  "Travel Tegal Banyumas",
-  "Travel Pemalang Banyumas",
-
-  "Travel Pengandaran Banyumas",
-  "Travel Tasik Banyumas",
-  "Travel Bandung Banyumas",
-  "Travel Garut Banyumas",
-  "Travel Majalengka Banyumas",
+  "Travel Semarang Tegal",
+  "Travel Brebes Semarang",
+  "Travel Pekalongan Semarang",
+  "Travel Kebumen Pati",
+  "Travel Kebumen Jepara",
+  "Travel Cilacap Solo",
+  "Travel Cilacap Semarang",
 
   "Travel Jakarta Banyumas",
-  "Travel Depok Banyumas",
-  "Travel Bekasi Banyumas",
-  "Travel Cikarang Banyumas",
-  "Travel Bogor Banyumas",
-  "Travel Tangerang Banyumas",
+  "Travel Jakarta Cilacap",
+  "Travel Jakarta Purbalingga",
+  "Travel Jakarta Kebumen",
+  "Travel Jakarta Jogja",
+  "Travel Jakarta Tegal",
+  "Travel Jakarta Pekalongan",
+  "Travel Jakarta Brebes",
+  "Travel Jakarta Semarang",
+  "Travel Jakarta Banjarnegara",
+  "Travel Jakarta Purworejo",
 
-  "Travel Soeta Banyumas",
-  "Travel YIA Banyumas",
+  "Travel Bandara Banyumas",
+  "Travel Bandara Cilacap",
+  "Travel Bandara Purbalingga",
+  "Travel Bandara Kebumen",
+  "Travel Bandara Jogja",
+  "Travel Bandara Tegal",
+  "Travel Bandara Pekalongan",
+  "Travel Bandara Brebes",
+  "Travel Bandara Banjarnegara",
+  "Travel Bandara Purworejo",
 
+  "Travel pati Banyumas",
+  "Travel Semarang Banyumas",
+  "Travel Jepara Cilacap",
+  "Travel Semarang Purbalingga",
+  "Travel Semarang Kebumen",
+  "Travel Semarang Banjarnegara",
+  "Travel Tegal Cilacap",
+  "Travel Tegal Banyumas",
+  "Travel Tegal Semarang",
+  "Travel Semarang Brebes",
+  "Travel Semarang Pekalongan",
+  "Travel Pati Kebumen",
+  "Travel Jepara Kebumen",
+  "Travel Solo Cilacap",
+  "Travel Semarang Cilacap",
 
+  "Travel Banyumas Jakarta",
+  "Travel Cilacap Jakarta",
+  "Travel Purbalingga Jakarta",
+  "Travel Kebumen Jakarta",
+  "Travel Jogja Jakarta",
+  "Travel Tegal Jakarta",
+  "Travel Pekalongan Jakarta",
+  "Travel Brebes Jakarta",
+  "Travel Semarang Jakarta",
+  "Travel Banjarnegara Jakarta",
+  "Travel Purworejo Jakarta",
+
+  "Travel Banyumas Bandara",
+  "Travel Cilacap Bandara",
+  "Travel Purbalingga Bandara",
+  "Travel Kebumen Bandara",
+  "Travel Jogja Bandara",
+  "Travel Tegal Bandara",
+  "Travel Pekalongan Bandara",
+  "Travel Brebes Bandara",
+  "Travel Banjarnegara Bandara",
+  "Travel Purworejo Bandara",
 ];
 
 $kota = [
@@ -450,11 +474,12 @@ $galeri = [
           </p>
         </div>
         <div
-          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:text-base [&_h3]:text-slate-800  [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_h3]:line-clamp-1 [&_p]:line-clamp-3 [&_p]:my-3 [&_p]:text-[15px] [&_p]:opacity-85 [&_a]:bg-primary [&_a]:text-slate-100 [&_a]:rounded [&_a]:block [&_a]:text-center [&_a]:p-1">
+          class="grid grid-cols-12 gap-x-5 gap-y-7 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:text-base [&_h3]:text-slate-800  [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer [&_h3]:line-clamp-2 [&_p]:line-clamp-3 [&_p]:my-3 [&_p]:text-[15px] [&_p]:opacity-85 [&_a]:bg-primary [&_a]:text-slate-100 [&_a]:rounded [&_a]:block [&_a]:text-center [&_a]:p-1">
           <?php if (count($rute) > 0) : ?>
             <?php foreach ($rute as $item) : ?>
               <div class="">
                 <img
+                  title="<?= $item ?>"
                   loading="lazy"
                   src="<?= $domain . 'src/img/rute.jpg' ?>"
                   width="100%"
@@ -466,7 +491,7 @@ $galeri = [
                     <?= $item ?>
                   </h3>
                   <p>Pesan <?= $item ?> harga murah bisa negosiasi.</p>
-                  <a href="<?= $link_whatsapp ?>">Pesan Travel</a>
+                  <a title="<?= $item ?>" href="<?= $link_whatsapp ?>">Pesan Travel</a>
                 </div>
               </div>
             <?php endforeach; ?>
